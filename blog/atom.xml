@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://markus-jf.github.io/website-pyrsia/blog"/>
     <subtitle>Pyrsia Blog</subtitle>
-    <icon>https://markus-jf.github.io/website-pyrsia/img/favicon.png</icon>
+    <icon>https://markus-jf.github.io/website-pyrsia/img/favicon-32x32.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
