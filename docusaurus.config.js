@@ -63,15 +63,15 @@ const config = {
           {
             type: 'doc',
             docId: 'technology/overview',
-            label: 'Technology',
+            label: 'Tutorials',
             position: 'left'
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'developer/index',
-          //   label: 'Developers Hub',
-          //   position: 'left'
-          // },
+          {
+            type: 'doc',
+            docId: 'developer/index',
+            label: 'Get Involved',
+            position: 'left'
+          },
           // {
           //   to: '/blog',
           //   label: 'Blog',
@@ -82,7 +82,7 @@ const config = {
             label: 'GitHub',
             position: 'left',
           },
-        ],
+        ]
       },
       footer: {
         style: 'light',
@@ -136,10 +136,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/pyrsia',
