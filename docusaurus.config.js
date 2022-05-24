@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Pyrsia',
   tagline: 'Zero-trust decentralized package network',
-  url: 'https://markus-jf.github.io/',
+  url: 'https://markus-jf.github.io',
   baseUrl: '/website-pyrsia/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -38,6 +38,15 @@ const config = {
         },
       }),
     ],
+  ],
+
+  plugins: [
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-WZ4WCZ8', // GTM Container ID
+      }
+    ]
   ],
 
   themeConfig:
